@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-17T16:27:51 IST" name="suite1" finished-at="2022-08-17T16:28:28 IST" duration-ms="37290">
+    <groups>
+    </groups>
+    <test started-at="2022-08-17T16:27:51 IST" name="test1" finished-at="2022-08-17T16:28:28 IST" duration-ms="37290">
+      <class name="testScenarios.IrctcHomePageTestt">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:testScenarios.IrctcHomePageTestt@7d9d0818]" started-at="2022-08-17T16:27:51 IST" name="setExtent" finished-at="2022-08-17T16:27:51 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScenarios.IrctcHomePageTestt@7d9d0818]" started-at="2022-08-17T16:27:51 IST" name="setUp" finished-at="2022-08-17T16:27:59 IST" duration-ms="8599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageOperation()[pri:0, instance:testScenarios.IrctcHomePageTestt@7d9d0818]" started-at="2022-08-17T16:27:59 IST" name="homePageOperation" finished-at="2022-08-17T16:28:04 IST" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageOperation -->
+        <test-method is-config="true" signature="ListenerTest(org.testng.ITestResult)[pri:0, instance:testScenarios.IrctcHomePageTestt@7d9d0818]" started-at="2022-08-17T16:28:04 IST" name="ListenerTest" finished-at="2022-08-17T16:28:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageOperation status=SUCCESS method=IrctcHomePageTestt.homePageOperation()[pri:0, instance:testScenarios.IrctcHomePageTestt@7d9d0818] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListenerTest -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:testScenarios.IrctcHomePageTestt@7d9d0818]" started-at="2022-08-17T16:28:27 IST" name="TeardownTest" finished-at="2022-08-17T16:28:27 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testScenarios.IrctcHomePageTestt@7d9d0818]" started-at="2022-08-17T16:28:27 IST" name="endReport" finished-at="2022-08-17T16:28:28 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testScenarios.IrctcHomePageTestt -->
+      <class name="testScenarios.IrctcLoginPageTest">
+        <test-method signature="loginPageOperation()[pri:0, instance:testScenarios.IrctcLoginPageTest@496bc455]" started-at="2022-08-17T16:28:06 IST" name="loginPageOperation" finished-at="2022-08-17T16:28:27 IST" duration-ms="21183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageOperation -->
+        <test-method is-config="true" signature="ListenerTest(org.testng.ITestResult)[pri:0, instance:testScenarios.IrctcLoginPageTest@496bc455]" started-at="2022-08-17T16:28:27 IST" name="ListenerTest" finished-at="2022-08-17T16:28:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageOperation status=SUCCESS method=IrctcLoginPageTest.loginPageOperation()[pri:0, instance:testScenarios.IrctcLoginPageTest@496bc455] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListenerTest -->
+      </class> <!-- testScenarios.IrctcLoginPageTest -->
+      <class name="testScenarios.IrctcBookPageTest">
+        <test-method signature="bookPageOperation()[pri:0, instance:testScenarios.IrctcBookPageTest@70ed52de]" started-at="2022-08-17T16:28:04 IST" name="bookPageOperation" finished-at="2022-08-17T16:28:06 IST" duration-ms="2342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookPageOperation -->
+        <test-method is-config="true" signature="ListenerTest(org.testng.ITestResult)[pri:0, instance:testScenarios.IrctcBookPageTest@70ed52de]" started-at="2022-08-17T16:28:06 IST" name="ListenerTest" finished-at="2022-08-17T16:28:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookPageOperation status=SUCCESS method=IrctcBookPageTest.bookPageOperation()[pri:0, instance:testScenarios.IrctcBookPageTest@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListenerTest -->
+      </class> <!-- testScenarios.IrctcBookPageTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>

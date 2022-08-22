@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.056" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\LAKSHKC\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\LAKSHKC\eclipse-workspace\comm.irctc\target\test-classes;C:\Users\LAKSHKC\eclipse-workspace\comm.irctc\target\classes;C:\Users\LAKSHKC\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\LAKSHKC\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\LAKSHKC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\LAKSHKC\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\LAKSHKC\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\LAKSHKC\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\LAKSHKC\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\LAKSHKC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LAKSHKC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LAKSHKC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LAKSHKC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LAKSHKC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LAKSHKC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LAKSHKC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LAKSHKC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LAKSHKC\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\LAKSHKC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\LAKSHKC\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\LAKSHKC\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\LAKSHKC\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\LAKSHKC\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\LAKSHKC\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\LAKSHKC\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\LAKSHKC\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\LAKSHKC\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\LAKSHKC\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LAKSHKC\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\LAKSHKC\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\LAKSHKC\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\LAKSHKC\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\LAKSHKC\AppData\Local\Temp\surefire13869429145808513710\surefirebooter-20220817162749600_3.jar C:\Users\LAKSHKC\AppData\Local\Temp\surefire13869429145808513710 2022-08-17T16-27-49_151-jvmRun1 surefire-20220817162749600_1tmp surefire_0-20220817162749600_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\LAKSHKC\eclipse-workspace\comm.irctc\target\test-classes;C:\Users\LAKSHKC\eclipse-workspace\comm.irctc\target\classes;C:\Users\LAKSHKC\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\LAKSHKC\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\LAKSHKC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\LAKSHKC\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\LAKSHKC\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\LAKSHKC\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\LAKSHKC\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\LAKSHKC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LAKSHKC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LAKSHKC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LAKSHKC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LAKSHKC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LAKSHKC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LAKSHKC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LAKSHKC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LAKSHKC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LAKSHKC\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\LAKSHKC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\LAKSHKC\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\LAKSHKC\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\LAKSHKC\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\LAKSHKC\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\LAKSHKC\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\LAKSHKC\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\LAKSHKC\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\LAKSHKC\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\LAKSHKC\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\LAKSHKC\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\LAKSHKC\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\LAKSHKC\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\LAKSHKC\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\LAKSHKC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Users\LAKSHKC\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\LAKSHKC\eclipse-workspace\comm.irctc"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\LAKSHKC\AppData\Local\Temp\surefire13869429145808513710\surefirebooter-20220817162749600_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="lakshkc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\LAKSHKC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LAKSHKC\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\LAKSHKC\eclipse-workspace\comm.irctc"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\LAKSHKC\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/LAKSHKC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/Users/LAKSHKC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files\AdoptOpenJDK\jdk-15.0.0.36-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\LAKSHKC\sqllite3;C:\Users\LAKSHKC\Anaconda3;C:\Users\LAKSHKC\Anaconda3\Library\mingw-w64\bin;C:\Users\LAKSHKC\Anaconda3\Library\usr\bin;C:\Users\LAKSHKC\Anaconda3\Library\bin;C:\Users\LAKSHKC\Anaconda3\Scripts;C:\Users\LAKSHKC\AppData\Local\Microsoft\WindowsApps;C:\Users\LAKSHKC\AppData\Local\GitHubDesktop\bin;C:\Users\LAKSHKC\AppData\Local\JetBrains\PyCharm Community Edition 2021.3\bin;;C:\Users\LAKSHKC\sqlite3;C:\Users\LAKSHKC\Desktop\Git\cmd;C:\Users\LAKSHKC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LAKSHKC\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="homePageOperation" classname="testScenarios.IrctcHomePageTestt" time="4.211">
+    <system-out><![CDATA[08-17-2022 16:27:54 Driver.java INFO  [main] testScenarios.Driver 47 - Opening Browser
+08-17-2022 16:27:59 Driver.java INFO  [main] testScenarios.Driver 54 - Opened browser
+08-17-2022 16:28:00 IrctcHomePage.java WARN  [main] testScenarios.Driver 51 - Click OK on Covid pop-up alert
+08-17-2022 16:28:01 IrctcHomePage.java INFO  [main] testScenarios.Driver 62 - Enter From source
+08-17-2022 16:28:02 IrctcHomePage.java INFO  [main] testScenarios.Driver 73 - Enter destination source
+08-17-2022 16:28:02 IrctcHomePage.java INFO  [main] testScenarios.Driver 85 - Select Ladies quota from the dropdown
+08-17-2022 16:28:03 IrctcHomePage.java INFO  [main] testScenarios.Driver 94 - Select the date
+08-17-2022 16:28:03 IrctcHomePage.java INFO  [main] testScenarios.Driver 101 - Select classes as 'AC 2 tier 2A' from dropdown
+08-17-2022 16:28:03 IrctcHomePage.java INFO  [main] testScenarios.Driver 109 - Click 'Train with available berth' checkbox
+08-17-2022 16:28:04 IrctcHomePage.java INFO  [main] testScenarios.Driver 118 - Click Search button
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:ERROR Could not find value for key log4j.appender.CONSOLE
+log4j:ERROR Could not instantiate appender named "CONSOLE".
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 18823
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 17, 2022 4:27:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="bookPageOperation" classname="testScenarios.IrctcBookPageTest" time="2.342">
+    <system-out><![CDATA[08-17-2022 16:28:04 IrctcBookPage.java INFO  [main] testScenarios.Driver 52 - Click on 'Sort by duration' button
+AJMER EXPRESS (16210)
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 60 - Click on 'Departure Late First' and printing all the list of Trains
+UDYAN EXP (11302)
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 60 - Click on 'Departure Late First' and printing all the list of Trains
+CBE LTT EXP (11014)
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 60 - Click on 'Departure Late First' and printing all the list of Trains
+SAMPARK KRANTI (12629)
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 60 - Click on 'Departure Late First' and printing all the list of Trains
+TEN DR EXPRESS (11022)
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 60 - Click on 'Departure Late First' and printing all the list of Trains
+Train detains - 22:20 | KSR BENGALURU | Tue, 23 Aug
+20:25
+18:45 | PUNE JN | Wed, 24 Aug
+The available train - Tue, 23 Aug
+WL11
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 73 - Train details will be printed
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 79 - Select the 4th Train in the list
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 85 - Click on Book button
+The Price Is - ₹ 520
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 92 - Train price will be printed
+08-17-2022 16:28:05 IrctcBookPage.java INFO  [main] testScenarios.Driver 101 - Click on 'I agree' button
+08-17-2022 16:28:06 IrctcBookPage.java INFO  [main] testScenarios.Driver 104 - Click on 'Yes button' button
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageOperation" classname="testScenarios.IrctcLoginPageTest" time="21.183">
+    <system-out><![CDATA[08-17-2022 16:28:12 IrctcLoginPage.java INFO  [main] testScenarios.Driver 43 - Enter UserName
+08-17-2022 16:28:12 IrctcLoginPage.java INFO  [main] testScenarios.Driver 51 - Enter Password
+08-17-2022 16:28:19 IrctcLoginPage.java INFO  [main] testScenarios.Driver 59 - Click on Sign-in button
+08-17-2022 16:28:23 IrctcLoginPage.java INFO  [main] testScenarios.Driver 73 - Invalid message should be displayed
+]]></system-out>
+  </testcase>
+</testsuite>
